@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Falls_CraneClimber_PlayAnimation
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-52.86456,"y":77.96432},"zoom":0.8500001,"elements":[{"defaultValues":{"duration":{"$content":90.0,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-432.0,"y":-74.0},"guid":"9b0ac56a-83f2-4c8c-a438-789a686c85b3","$version":"A","$type":"Bolt.Timer","$id":"9"},{"chainable":false,"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":true,"$type":"System.Boolean"}},"position":{"x":180.0,"y":-270.0},"guid":"182248a9-89b2-45f8-b165-52da44b471de","$version":"A","$type":"Bolt.InvokeMember","$id":"11"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Stupid
+      crane climber","$type":"System.String"},"object":null},"position":{"x":-57.0,"y":-52.0},"guid":"ae2313a4-2bf3-445b-b934-39b24c808f25","$version":"A","$type":"Bolt.GetVariable","$id":"14"},{"chainable":false,"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":false,"$type":"System.Boolean"}},"position":{"x":279.0,"y":198.0},"guid":"8a5a62a2-44f6-41f6-a206-05a5dd8a5466","$version":"A","$type":"Bolt.InvokeMember","$id":"16"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-711.0,"y":18.0},"guid":"2686855b-87ac-4a83-98a8-6b5edac32c92","$version":"A","$type":"Bolt.OnButtonClick","$id":"19"},{"sourceUnit":{"$ref":"19"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"start","guid":"e181b85a-0e6c-46bf-ae04-0eae9764419d","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"started","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"383bc678-a3a8-453c-ad61-b6c0215346f5","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"completed","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"1be06ade-6de2-4ca9-aaba-5aad58026f1f","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"5cd8dea4-5fe0-432b-abbd-6f2ab4808c11","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"target","guid":"7b8336c5-4efc-4ef9-b19a-dafd9d4847ea","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
